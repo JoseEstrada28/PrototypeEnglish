@@ -19,13 +19,7 @@
     
     
 }
-.background{
-    width: 100%;
-    height: 800px;
-   
-   
-    
-}
+
 header{
     width: 100%;
     height: 80px;
@@ -33,9 +27,11 @@ header{
     flex-direction: row;
     align-items: center;
    
+    
+   
     justify-content: space-around;
    
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    // box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
    align-items: center;
   
    
@@ -67,7 +63,7 @@ header{
      }
      &--title{
         text-decoration: none;
-        color: black;
+        color: white;
      }
 }
 
@@ -98,8 +94,8 @@ header .label__menu:hover{
 .header__menu .header__lista .header__lista--item:hover a{
    
     border-radius: 10px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
  
@@ -107,90 +103,98 @@ header .label__menu:hover{
 .header__menu .header__lista--item a{
     display: block;
     padding: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     margin-left: 20px;
 }
 
-/*index information*/
-.index__information{
-    width: 88%;
-    height: 20%;
-    margin: 0 auto;
-    background-color: black;
-    margin-top: 30px;
-    border-radius: 10px;
-    padding: 40px;
-    color:white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 46px;
-    .index__information--animation{
-       
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 38px;
-       overflow: hidden;
+//content index header
+
+    .background{
+        background-image: url(../img/img13.jpg);
+        background-size: cover;
         width: 100%;
-        .index__information--Hola{
-            font-size: 30px;
-            text-align: center;
-            
-            
+        height: 90%;
+       
+       background-attachment: fixed;
+      background-position-y: bottom;
+
+      .info{
+        border: 1px solid white;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          text-align: center;
+          width: 50%;
+          margin: 0 auto;
+          margin-top: 5%;
+
+      &__introduction{
+        color: white;
+        font-size: 5rem;
+        margin-bottom: 2rem;
+      
+    }
+    &__button{
+        width: 30%;
+       
+       margin: auto;
+       border: 3px solid white;
+        padding: 0;
+    
+           color: white;
+           text-decoration: none;
+           font-size: 2rem;
+           border-radius: 10px;
            
-            
-        }
-        .index__information--modifire{
-            list-style: none;
-            margin: 0;
-            margin-left: 20px;
-            font-size: 30px;
-            animation: change 7s infinite;
-            font-family: $font__family__card;
-        }
-
+      
+     
+       
     }
-    
-    &--p{
-        font-size: 20px;
-        padding: 10px;
-        
-        
 
+    &__button:hover {
+        background-color: white;
+        color: black;
     }
-}
-
-@keyframes change{
-    0%{ margin-top: 0;}
-    20%{ margin-top: 0;}
-
-    25%{ margin-top: -35px;}
-    50%{ margin-top: -35px;}
-
-    55%{ margin-top: -68px;}
-    80%{ margin-top: -68px;}
-    85%{ margin-top: -35px;}
-    95%{ margin-top: -35px;}
-    100%{ margin-top: 0;}
-}
 
 
-//content begins//
 
-#content__begins{
-   
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 30px;
-    
-}
+      }
+      
+    }
+
+    //content begins
+    .content{
+
+        .descriptions{
+            width: 70%;
+            margin: auto;
+            border: 1px solid black;
+            margin-top: 2rem;
+
+            .content__first{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                &--img{
+                    width: 50%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+
+
+            }
+
+
+
+
+
+        }
+    }
+
+  
+
 
 
 
