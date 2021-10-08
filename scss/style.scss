@@ -121,7 +121,7 @@ header .label__menu:hover{
       background-position-y: bottom;
 
       .info{
-        border: 1px solid white;
+       
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
@@ -192,9 +192,9 @@ header .label__menu:hover{
         }
 
         .descriptions{
-            width: 85%;
+            width: 70%;
             margin: auto;
-            border: 1px solid black;
+          
             margin-top: 3rem;
            
 
@@ -263,7 +263,7 @@ header .label__menu:hover{
          display: flex;
          flex-direction: row;
          flex-wrap: nowrap;
-         border: 1px solid black;
+       
         margin: auto;
         margin-bottom: 2rem;
       justify-content: center;
@@ -278,7 +278,7 @@ header .label__menu:hover{
          &__title{
              
              height: 2rem;
-             border: 1px solid black;
+           
              padding-top: 9px;
              font-size: 2rem;
 
