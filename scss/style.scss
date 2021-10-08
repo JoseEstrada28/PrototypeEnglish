@@ -167,6 +167,8 @@ header .label__menu:hover{
     //content begins
     .content{
 
+        
+
         .who{
             width: 70%;
             margin: auto;
@@ -210,8 +212,8 @@ header .label__menu:hover{
                 font-size: 1rem;
             }
                 &--img{
-                    width: 50%;
-                    height: 450px;
+                    width: 38%;
+                    height: 290px;
                     border-radius: 15px;
                 }
             }
@@ -230,8 +232,8 @@ header .label__menu:hover{
                 flex-wrap: wrap;
             }
                 &--img{
-                    width: 50%;
-                    height: 100%;
+                    width: 38%;
+                    height: 90%;
                     border-radius: 15px;
                 }
             }
@@ -246,8 +248,8 @@ header .label__menu:hover{
                 padding: 8% ;
             }
                 &--img{
-                    width: 50%;
-                    height: 100%;
+                    width: 38%;
+                    height: 90%;
                     border-radius: 15px;
                 }
             }
@@ -289,13 +291,20 @@ header .label__menu:hover{
          }
      }
 
+     .whats{
+         width: 4rem;
+         height: 4rem;
+         position: fixed;
+        bottom: 3rem;
+        right: 0;
+     }
 
     }
 
 
     //Footer 
     .footer{
-        width: 100%;
+  
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -371,6 +380,108 @@ header .label__menu:hover{
 
     }
 
+
+
+    //Courses
+    .background-courses{
+        background-image: url(../img/img19.jpg);
+        background-size: 100% 100%;
+        height: 100%;
+
+        .courses{
+            color: white;
+            text-align: center;
+            margin-top: 10rem;
+            font-size: 10rem;
+        }
+       
+    }
+
+    .list-courses{
+      
+      .learn{
+          text-align: center;
+          padding: 3rem;
+          padding-bottom: 1rem;
+          font-size: 2rem;
+      }
+        .availables{
+           width: 80%;
+           height: 100%;
+           margin: auto;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           margin-top: 2rem;
+
+
+            .box-courses{
+                
+                width: 30%;
+                margin: 1rem;
+                padding-bottom: 12rem;
+                border: 1px solid #04EEE2;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px #04EEE2;
+              
+
+              
+           
+             
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    
+                }
+
+                .days{
+                    
+
+                    .hour__day{
+                        font-size: 2rem;
+                        text-align: center;
+                        padding: 10px;
+                    }
+                  
+                   
+
+                    &__content{
+                      
+                        
+                        li{
+                            text-align: center;
+                            padding: 5px;
+                            list-style-type: none;
+                            align-items: center;
+                        }
+                    }
+
+                    .send{
+                        text-decoration: none;
+                        border: 1px solid #04EEE2;
+                        background-color: #04EEE2;
+                        color: white;
+                        border-radius: 5px;
+                        padding: 10px;
+                        margin-top: 10px;
+                        
+                    }
+                }
+
+
+            }
+
+        }
+        .whats{
+            width: 4rem;
+            height: 4rem;
+            position: fixed;
+           bottom: 3rem;
+           right: 0;
+        }
+    }
   
 
 
@@ -434,24 +545,7 @@ header .label__menu:hover{
 }
 
 
-//dicover begins//
 
-.discover{
-    width: 100%;
-    height: 200%;
-    background-color: black;
-
-
-    //add coming soon
-    h4{
-        text-align: center;
-        color: white;
-        font-size: 40px;
-        line-height: 450px;
-    }
-   
-
-}
 
 .results{
     width: 70%;
